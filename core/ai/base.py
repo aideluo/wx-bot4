@@ -1,0 +1,2 @@
+﻿class BaseAi:
+    pass

@@ -1,0 +1,2 @@
+﻿class BaseSecurity:
+    pass
