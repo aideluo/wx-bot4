@@ -81,7 +81,7 @@ graph TD
   <img src="./images/2f771a39-4fc3-4c29-95cf-fe73f614222f.png" width="800" alt="wx-bot4 Dashboard" />
 </div>
 
-<details>
+<details open>
   <summary><b>✨ 点击查看系统全功能截图 (100% 真实系统演示)</b></summary>
   
   <br>
