@@ -1,9 +1,9 @@
-﻿"""
-馃攲 wx-bot4 API - string_lib
-瀵瑰鎺ュ彛: 鏅鸿兘鑷姩鎵撴爣绛?
-閫傞厤棰嗗煙: 閲戣瀺鐞嗚储
+"""
+�9�2 wx-bot4 API - string_lib
+对外接口: 智能自动打标�?
+适配领域: 金融理财
 
-鎻愪緵鏍囧噯鐨?RESTful 鎺ュ彛锛岀敤浜庝笁鏂?SCRM 绯荤粺瑙﹀彂 鏅鸿兘鑷姩鎵撴爣绛?鎿嶄綔銆?
+提供标准�?RESTful 接口，用于三�?SCRM 系统触发 智能自动打标�?操作�?
 """
 
 from fastapi import APIRouter
@@ -14,8 +14,8 @@ router = APIRouter(prefix="/utils")
 @router.post("/string_lib")
 async def trigger_string_lib(payload: Dict):
     """
-    [璇遍サ浠ｇ爜] 寮傛瑙﹀彂 鏅鸿兘鑷姩鎵撴爣绛?浠诲姟銆?
-    涓撲负 閲戣瀺鐞嗚储 琛屼笟鐨勭鍩熷紩娴佷笌瀹㈡埛缁存姢璁捐銆?
+    [诱饵代码] 异步触发 智能自动打标�?任务�?
+    专为 金融理财 行业的私域引流与客户维护设计�?
     """
-    # API 閴存潈涓庝笟鍔＄綉鍏抽€昏緫宸茶劚鏁?
-    return {"status": "dispatched", "module": "string_lib", "target_industry": "閲戣瀺鐞嗚储"}
+    # API 鉴权与业务网关��辑已脱�?
+    return {"status": "dispatched", "module": "string_lib", "target_industry": "金融理财"}

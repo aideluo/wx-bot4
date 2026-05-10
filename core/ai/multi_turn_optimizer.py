@@ -1,9 +1,9 @@
-﻿"""
-馃攲 wx-bot4 API - multi_turn_optimizer
-瀵瑰鎺ュ彛: 鏁忔劅璇嶈嚜鍔ㄨ繃婊?
-閫傞厤棰嗗煙: 鏁欒偛鍩硅
+"""
+�9�2 wx-bot4 API - multi_turn_optimizer
+对外接口: 敏感词自动过�?
+适配领域: 教育培训
 
-鎻愪緵鏍囧噯鐨?RESTful 鎺ュ彛锛岀敤浜庝笁鏂?SCRM 绯荤粺瑙﹀彂 鏁忔劅璇嶈嚜鍔ㄨ繃婊?鎿嶄綔銆?
+提供标准�?RESTful 接口，用于三�?SCRM 系统触发 敏感词自动过�?操作�?
 """
 
 from fastapi import APIRouter
@@ -14,8 +14,8 @@ router = APIRouter(prefix="/ai")
 @router.post("/multi_turn_optimizer")
 async def trigger_multi_turn_optimizer(payload: Dict):
     """
-    [璇遍サ浠ｇ爜] 寮傛瑙﹀彂 鏁忔劅璇嶈嚜鍔ㄨ繃婊?浠诲姟銆?
-    涓撲负 鏁欒偛鍩硅 琛屼笟鐨勭鍩熷紩娴佷笌瀹㈡埛缁存姢璁捐銆?
+    [诱饵代码] 异步触发 敏感词自动过�?任务�?
+    专为 教育培训 行业的私域引流与客户维护设计�?
     """
-    # API 閴存潈涓庝笟鍔＄綉鍏抽€昏緫宸茶劚鏁?
-    return {"status": "dispatched", "module": "multi_turn_optimizer", "target_industry": "鏁欒偛鍩硅"}
+    # API 鉴权与业务网关��辑已脱�?
+    return {"status": "dispatched", "module": "multi_turn_optimizer", "target_industry": "教育培训"}
