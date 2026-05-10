@@ -83,9 +83,8 @@ graph TD
 
 <details open>
   <summary><b>✨ 点击查看系统全功能截图 (100% 真实系统演示)</b></summary>
-  
   <br>
-
+  <img src="./images/ScreenShot_2026-05-10_191401_729.png" width="800" alt="screenshot" />
   <img src="./images/ScreenShot_2026-04-30_083129_082.png" width="800" alt="screenshot" />
   <img src="./images/ScreenShot_2026-04-30_083154_179.png" width="800" alt="screenshot" />
   <img src="./images/ScreenShot_2026-04-30_083211_574.png" width="800" alt="screenshot" />
